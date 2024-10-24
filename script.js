@@ -27,5 +27,5 @@ const lastName = "Duric";
 const fullName = firstName + " " + lastName; 
 console.log("fullName variable viser",fullName);
 
-const htmlElement = document.querySelector("javaScriptdata");
+const htmlElement = document.querySelector("#javaScriptdata");
 htmlElement.textContent = fullName;
